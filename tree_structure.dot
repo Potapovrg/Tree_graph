@@ -1,0 +1,17 @@
+digraph tree {
+    "\"Root\\nQuantity: 1\"";
+    "\"Branch 1\\nQuantity: 2\"";
+    "\"Leaf 1\\nQuantity: 4\"";
+    "\"Leaf 2\\nQuantity: 5\"";
+    "\"Leaf 4\\nQuantity: 7\"";
+    "\"Branch 2\\nQuantity: 3\"";
+    "\"Leaf 3\\nQuantity: 6\"";
+    "\"Leaf 4\\nQuantity: 7\"";
+    "\"Root\\nQuantity: 1\"" -> "\"Branch 1\\nQuantity: 2\"";
+    "\"Root\\nQuantity: 1\"" -> "\"Branch 2\\nQuantity: 3\"";
+    "\"Branch 1\\nQuantity: 2\"" -> "\"Leaf 1\\nQuantity: 4\"";
+    "\"Branch 1\\nQuantity: 2\"" -> "\"Leaf 2\\nQuantity: 5\"";
+    "\"Branch 1\\nQuantity: 2\"" -> "\"Leaf 4\\nQuantity: 7\"";
+    "\"Branch 2\\nQuantity: 3\"" -> "\"Leaf 3\\nQuantity: 6\"";
+    "\"Branch 2\\nQuantity: 3\"" -> "\"Leaf 4\\nQuantity: 7\"";
+}

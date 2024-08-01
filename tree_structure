@@ -1,0 +1,17 @@
+// Tree Structure
+digraph {
+	rankdir=LR
+	A [label=Root]
+	B [label="Branch 1"]
+	C [label="Branch 2"]
+	D [label="Leaf 1"]
+	E [label="Leaf 2"]
+	F [label="Leaf 3"]
+	G [label="Leaf 4"]
+	A -> B
+	A -> C
+	B -> D
+	B -> E
+	C -> F
+	C -> G
+}
